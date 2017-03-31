@@ -1,0 +1,115 @@
+body {
+	background-image: url('../images/back_image.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 900px;
+	width: 100%;
+
+}
+
+body * {
+	font-family: "Halvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main_pic {
+	box-shadow: 5px 5px 8px black;
+	width: 360px;
+	height: 460px;
+	border-radius: 20px;
+}
+
+.col-md-4 {
+
+	text-align: center;
+}
+
+.container {
+	width: 100%;
+}
+
+.navheader {
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 22px;
+	color: #ffd400;
+	display: block;
+}
+
+.nav li {
+	display: inline-block;
+	font-size: 22px;
+	color: #ffd400;
+	padding: 4px;
+	border: 2px solid #FFFFFF;
+	margin: 10px 10px;
+	letter-spacing: 2px;
+
+}
+
+p {
+	font-size: 26px;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+
+.nav li:hover {
+	border-color: orange;
+	cursor: pointer;
+	background-color: #000000;
+}
+
+.navright {
+	float: right;
+}
+
+.navleft {
+	float: left;
+}
+
+img {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.fa {
+	color: #ffd400;
+	font-size: 40px;
+	display: inline-block;
+	margin-top: 16px;
+	bottom: 2px;
+	letter-spacing: 4px;
+	text-shadow: 5px 5px 8px black;
+
+}
+
+.fa:hover {
+	
+	-webkit-transition: all 600ms ease-in;
+	-webkit-transform: scale(1.3);
+	-ms-transition: all 600ms ease-in;
+	-ms-transform: scale(1.3);   
+	-moz-transition: all 600ms ease-in;
+	-moz-transform: scale(1.3);
+	transition: all 600ms ease-in;
+	transform: scale(1.3);
+}
+
+#intro {
+	text-shadow: 5px 5px 8px black;
+	margin-top: 20px;
+}
+
+a:visited, a, a:active {
+	text-decoration: none;
+	color: #ffd400;
+}
+
+li:hover {
+	background-color: #000000;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: #000000 !important;
+}
